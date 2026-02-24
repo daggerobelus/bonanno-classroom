@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crafting a Research Question — Classroom Resources</title>
+    <link rel="icon" href="../favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<!-- Nav -->
+<div class="nav-wrapper">
+    <nav>
+        <a href="../index.html" class="nav-brand">
+            <img src="../mark-transparent.png" alt="">
+            <span>Classroom Resources</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="../index.html">All Worksheets</a></li>
+        </ul>
+    </nav>
+</div>
+
+<!-- Header -->
+<header class="worksheet-header">
+    <p class="section-label" style="color: var(--gold);">Worksheet 03</p>
+    <h1>Crafting a Research Question</h1>
+    <p>Move from a broad topic to a focused research question. A strong research question is specific, interpretive, and evidence-based — this worksheet will help you get there.</p>
+</header>
+
+<!-- Body -->
+<main class="worksheet-body">
+
+    <!-- Student Info -->
+    <div class="student-info">
+        <div>
+            <label for="student-name">Name</label>
+            <input type="text" id="student-name" placeholder="Your name">
+        </div>
+        <div>
+            <label for="student-date">Date</label>
+            <input type="text" id="student-date" placeholder="Today's date">
+        </div>
+    </div>
+
+    <!-- Step 1 -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">1</span>
+            <span class="step-title">Your Topic</span>
+        </div>
+        <p class="step-description">What broad topic or theme interests you? This can be general — we'll narrow it down.</p>
+        <textarea placeholder="What topic are you interested in exploring?"></textarea>
+    </div>
+
+    <!-- Step 2 -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">2</span>
+            <span class="step-title">Your Primary Source</span>
+        </div>
+        <p class="step-description">What source are you working with? Identify the specific text, object, or material you'll be analyzing.</p>
+        <textarea placeholder="What source are you working with?"></textarea>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">3</span>
+            <span class="step-title">An Interesting Observation</span>
+        </div>
+        <p class="step-description">What moment in your source do you find interesting, surprising, or confusing? Describe it. This is often where a good research question begins — with something that makes you pause.</p>
+        <textarea placeholder="What moment stands out to you?"></textarea>
+    </div>
+
+    <!-- Step 4 -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">4</span>
+            <span class="step-title">Draft Your Research Question</span>
+        </div>
+        <p class="step-description">Write a first attempt at a research question. Don't worry about getting it perfect — you'll revise it after the checklist below.</p>
+        <textarea placeholder="Write your first-draft research question..."></textarea>
+    </div>
+
+    <hr class="hairline hairline-center" style="margin: 40px auto;">
+
+    <!-- Step 5: Checklist -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">5</span>
+            <span class="step-title">Evaluate Your Question</span>
+        </div>
+        <p class="step-description">Use this checklist to test your research question against the three key criteria. Check each box once you're satisfied, and use the notes field to reflect on how you might strengthen that aspect.</p>
+
+        <div class="checklist-item">
+            <input type="checkbox" id="check-specific">
+            <div class="checklist-content">
+                <div class="checklist-label">Is it specific?</div>
+                <div class="checklist-desc">A strong research question is narrowly tailored to a particular theme, moment, or interest — not a broad survey of an entire topic.</div>
+                <textarea placeholder="Notes: How could you make it more specific?"></textarea>
+            </div>
+        </div>
+
+        <div class="checklist-item">
+            <input type="checkbox" id="check-interpretive">
+            <div class="checklist-content">
+                <div class="checklist-label">Is it interpretive?</div>
+                <div class="checklist-desc">It should not be answerable with yes, no, or maybe. Frame it through "how" or "why" to invite analysis rather than a simple factual answer.</div>
+                <textarea placeholder="Notes: Does your question invite interpretation?"></textarea>
+            </div>
+        </div>
+
+        <div class="checklist-item">
+            <input type="checkbox" id="check-evidence">
+            <div class="checklist-content">
+                <div class="checklist-label">Is it evidence-based?</div>
+                <div class="checklist-desc">Your question should reference or be grounded in at least one source. It should be answerable through close analysis of evidence, not opinion alone.</div>
+                <textarea placeholder="Notes: What evidence will you draw on?"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <!-- Step 6 -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">6</span>
+            <span class="step-title">Revised Research Question</span>
+        </div>
+        <p class="step-description">Based on the checklist above, revise your research question. Aim for something specific enough to guide your research, interpretive enough to sustain an argument, and grounded in evidence.</p>
+        <textarea class="large" placeholder="Write your revised research question here..."></textarea>
+    </div>
+
+    <!-- Actions -->
+    <div class="worksheet-actions">
+        <button class="btn btn-gold" onclick="downloadPDF()">Download as PDF</button>
+        <button class="btn btn-outline" onclick="resetForm()">Clear All</button>
+    </div>
+
+</main>
+
+<!-- Footer -->
+<footer>
+    <img src="../mark-transparent.png" alt="" class="footer-mark">
+    <p>&copy; 2026 Sarah Bonanno</p>
+</footer>
+
+<script src="../js/worksheet.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Close Reading for Writing — Classroom Resources</title>
+    <link rel="icon" href="../favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<!-- Nav -->
+<div class="nav-wrapper">
+    <nav>
+        <a href="../index.html" class="nav-brand">
+            <img src="../mark-transparent.png" alt="">
+            <span>Classroom Resources</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="../index.html">All Worksheets</a></li>
+        </ul>
+    </nav>
+</div>
+
+<!-- Header -->
+<header class="worksheet-header">
+    <p class="section-label" style="color: var(--gold);">Worksheet 02</p>
+    <h1>Close Reading for Writing</h1>
+    <p>Turn your observations into written analysis. This worksheet guides you through building a paragraph that lets evidence drive the argument — rather than using evidence as proof of a pre-existing claim.</p>
+</header>
+
+<!-- Body -->
+<main class="worksheet-body">
+
+    <!-- Student Info -->
+    <div class="student-info">
+        <div>
+            <label for="student-name">Name</label>
+            <input type="text" id="student-name" placeholder="Your name">
+        </div>
+        <div>
+            <label for="student-date">Date</label>
+            <input type="text" id="student-date" placeholder="Today's date">
+        </div>
+    </div>
+
+    <!-- Step 1 -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">1</span>
+            <span class="step-title">Your Evidence</span>
+        </div>
+        <p class="step-description">What passage are you writing about? Paste the specific quotation or describe the moment you're analyzing.</p>
+        <textarea placeholder="Paste or describe the passage here..."></textarea>
+    </div>
+
+    <!-- Step 2 -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">2</span>
+            <span class="step-title">Your Observations</span>
+        </div>
+        <p class="step-description">What specifically do you notice about the language, imagery, structure, or tone? Be as detailed and concrete as possible — these observations will become the engine of your analysis.</p>
+        <textarea placeholder="What do you notice about this passage?"></textarea>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">3</span>
+            <span class="step-title">Unpack the Evidence</span>
+        </div>
+        <p class="step-description">Rather than using the evidence as "proof" of a pre-existing claim, dig into what the evidence itself reveals. What does this passage show us when you sit with it? What meaning emerges from close attention?</p>
+        <textarea placeholder="What does the evidence reveal?"></textarea>
+    </div>
+
+    <!-- Step 4 -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">4</span>
+            <span class="step-title">Connections and Patterns</span>
+        </div>
+        <p class="step-description">How does this moment connect to other parts of the text? Does it complicate, support, or shift your reading? Think about how this passage fits into the larger work.</p>
+        <textarea placeholder="How does this connect to the rest of the text?"></textarea>
+    </div>
+
+    <!-- Step 5 -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">5</span>
+            <span class="step-title">Draft Your Analysis</span>
+        </div>
+        <p class="step-description">Write a paragraph that starts with the evidence and lets your observations drive the analysis. Lead with what you found — not with what you're trying to prove. Let the close reading do the work.</p>
+        <textarea class="large" placeholder="Write your analytical paragraph here..."></textarea>
+    </div>
+
+    <!-- Actions -->
+    <div class="worksheet-actions">
+        <button class="btn btn-gold" onclick="downloadPDF()">Download as PDF</button>
+        <button class="btn btn-outline" onclick="resetForm()">Clear All</button>
+    </div>
+
+</main>
+
+<!-- Footer -->
+<footer>
+    <img src="../mark-transparent.png" alt="" class="footer-mark">
+    <p>&copy; 2026 Sarah Bonanno</p>
+</footer>
+
+<script src="../js/worksheet.js"></script>
+</body>
+</html>

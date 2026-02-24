@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Close Reading for Reading — Classroom Resources</title>
+    <link rel="icon" href="../favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<!-- Nav -->
+<div class="nav-wrapper">
+    <nav>
+        <a href="../index.html" class="nav-brand">
+            <img src="../mark-transparent.png" alt="">
+            <span>Classroom Resources</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="../index.html">All Worksheets</a></li>
+        </ul>
+    </nav>
+</div>
+
+<!-- Header -->
+<header class="worksheet-header">
+    <p class="section-label" style="color: var(--gold);">Worksheet 01</p>
+    <h1>Close Reading for Reading</h1>
+    <p>A step-by-step process for approaching a primary source. Work through each step in order — by the end, you'll have the foundation for a claim.</p>
+</header>
+
+<!-- Body -->
+<main class="worksheet-body">
+
+    <!-- Student Info -->
+    <div class="student-info">
+        <div>
+            <label for="student-name">Name</label>
+            <input type="text" id="student-name" placeholder="Your name">
+        </div>
+        <div>
+            <label for="student-date">Date</label>
+            <input type="text" id="student-date" placeholder="Today's date">
+        </div>
+    </div>
+
+    <!-- Step 1 -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">1</span>
+            <span class="step-title">Start with the Evidence</span>
+        </div>
+        <p class="step-description">Pick a specific passage, quotation, or moment from your primary source. Paste or describe it below. Choose something that strikes you — something confusing, surprising, vivid, or important.</p>
+        <textarea placeholder="Paste or describe the passage here..."></textarea>
+    </div>
+
+    <!-- Step 2 -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">2</span>
+            <span class="step-title">Catalogue Your Observations</span>
+        </div>
+        <p class="step-description">What do you notice about this passage? Why did you choose it? What stands out about the language, imagery, structure, or tone? List as many observations as you can — don't worry about making an argument yet.</p>
+        <textarea placeholder="What do you notice?"></textarea>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">3</span>
+            <span class="step-title">Ask "So What?" or "Yes, And?"</span>
+        </div>
+        <p class="step-description">Why might your observations be important? What do they tell us that isn't immediately obvious? Push beyond surface-level description — what's interesting or unexpected about what you've noticed?</p>
+        <textarea placeholder="Why are these observations important?"></textarea>
+    </div>
+
+    <!-- Step 4 -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">4</span>
+            <span class="step-title">Notice Patterns</span>
+        </div>
+        <p class="step-description">Are there other moments in the text that connect to your observations? Do you see repetition, contradiction, development, or tension? How do these patterns deepen your reading?</p>
+        <textarea placeholder="What patterns or connections do you see?"></textarea>
+    </div>
+
+    <!-- Step 5 -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">5</span>
+            <span class="step-title">Brainstorm a Claim</span>
+        </div>
+        <p class="step-description">Based on your close reading, what did you learn? How has your understanding of the text developed or changed? Try drafting a one- or two-sentence claim that captures your interpretation.</p>
+        <textarea class="large" placeholder="Draft a claim based on your close reading..."></textarea>
+    </div>
+
+    <!-- Actions -->
+    <div class="worksheet-actions">
+        <button class="btn btn-gold" onclick="downloadPDF()">Download as PDF</button>
+        <button class="btn btn-outline" onclick="resetForm()">Clear All</button>
+    </div>
+
+</main>
+
+<!-- Footer -->
+<footer>
+    <img src="../mark-transparent.png" alt="" class="footer-mark">
+    <p>&copy; 2026 Sarah Bonanno</p>
+</footer>
+
+<script src="../js/worksheet.js"></script>
+</body>
+</html>
