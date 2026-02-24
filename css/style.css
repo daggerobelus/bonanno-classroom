@@ -634,6 +634,7 @@ footer p {
     max-width: 900px;
     margin: 0 auto;
     padding: 56px 48px 0;
+    scroll-margin-top: 80px;
 }
 
 .home-section-label h2 {
