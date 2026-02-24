@@ -551,6 +551,100 @@ footer p {
     line-height: 1.8;
 }
 
+/* ── Reference Page ── */
+.guide-body {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 48px 80px;
+}
+
+.guide-intro {
+    font-size: 16px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.guide-section {
+    margin-bottom: 40px;
+}
+
+.guide-section h2 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+}
+
+.guide-section h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    margin-top: 20px;
+}
+
+.guide-section p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+.guide-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.guide-section li {
+    font-size: 15px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.8;
+    padding-left: 20px;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.guide-section li::before {
+    content: "—";
+    position: absolute;
+    left: 0;
+    color: var(--gold);
+}
+
+.tip-box {
+    background: var(--cream);
+    border-radius: 8px;
+    padding: 20px 24px;
+    margin: 16px 0;
+}
+
+.tip-box p {
+    margin-bottom: 0;
+}
+
+/* ── Home Page Section Labels ── */
+.home-section-label {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 56px 48px 0;
+}
+
+.home-section-label h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--gold);
+}
+
 /* ── Responsive ── */
 @media (max-width: 768px) {
     nav {

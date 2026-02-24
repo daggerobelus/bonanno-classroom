@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build Your Weekly Plan — Classroom Resources</title>
+    <link rel="icon" href="../favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<!-- Nav -->
+<div class="nav-wrapper">
+    <nav>
+        <a href="../index.html" class="nav-brand">
+            <img src="../mark-transparent.png" alt="">
+            <span>Classroom Resources</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Resources</a></li>
+        </ul>
+    </nav>
+</div>
+
+<!-- Header -->
+<header class="worksheet-header">
+    <p class="section-label" style="color: var(--gold);">Worksheet</p>
+    <h1>Build Your Weekly Plan</h1>
+    <p>Map out the big picture, then zoom in on one assignment. Use this worksheet each week to build a sustainable work routine.</p>
+</header>
+
+<!-- Body -->
+<main class="worksheet-body">
+
+    <!-- Student Info -->
+    <div class="student-info">
+        <div>
+            <label for="student-name">Name</label>
+            <input type="text" id="student-name" placeholder="Your name">
+        </div>
+        <div>
+            <label for="student-date">Week of</label>
+            <input type="text" id="student-date" placeholder="e.g., Feb 24 – Mar 2">
+        </div>
+    </div>
+
+    <!-- Part 1: The Big Picture -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">1</span>
+            <span class="step-title">Your Fixed Commitments</span>
+        </div>
+        <p class="step-description">What's already set in stone this week? List your classes, work shifts, meetings, appointments, and any personal obligations.</p>
+        <textarea placeholder="Classes, meetings, work, appointments..."></textarea>
+    </div>
+
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">2</span>
+            <span class="step-title">Your Peak Hours</span>
+        </div>
+        <p class="step-description">Not all hours are equal. When do you do your best, most focused work? Morning? Afternoon? Late evening? When do you hit a wall? Knowing this helps you schedule hard tasks at the right time.</p>
+        <textarea placeholder="When are you at your best? When do you lose focus?"></textarea>
+    </div>
+
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">3</span>
+            <span class="step-title">What's Due This Week</span>
+        </div>
+        <p class="step-description">List everything that's due this week across all your classes. Include small things (readings, posts) and big things (papers, exams). Getting it all in one place helps you see the full picture.</p>
+        <textarea placeholder="List all assignments, readings, and deadlines..."></textarea>
+    </div>
+
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">4</span>
+            <span class="step-title">Block Your Time</span>
+        </div>
+        <p class="step-description">Based on your fixed commitments, peak hours, and deadlines — when will you work on what? Schedule your hardest tasks during your best hours. Don't forget to block time for eating, breaks, and social life.</p>
+        <textarea class="large" placeholder="Plan your work blocks for the week..."></textarea>
+    </div>
+
+    <hr class="hairline hairline-center" style="margin: 40px auto;">
+
+    <!-- Part 2: Zoom In -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">5</span>
+            <span class="step-title">Pick One Assignment to Plan</span>
+        </div>
+        <p class="step-description">Choose the assignment that feels biggest or most overwhelming this week. What is it, and when is it due?</p>
+        <textarea placeholder="What's the assignment? When is it due?"></textarea>
+    </div>
+
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">6</span>
+            <span class="step-title">Break It Down</span>
+        </div>
+        <p class="step-description">Work backwards from the due date. What are the smaller steps you need to complete? For a paper, this might be: choose a passage, close read, draft a thesis, write the body, revise. List the steps and estimate how long each one takes.</p>
+        <textarea class="large" placeholder="Break the assignment into smaller tasks..."></textarea>
+    </div>
+
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">7</span>
+            <span class="step-title">Schedule Your Sessions</span>
+        </div>
+        <p class="step-description">Using the Pomodoro Technique (25-30 minute focused sessions with breaks), plan when you'll work on each step. Which days? What time? Try to spread the work across multiple days rather than cramming it all into one.</p>
+        <textarea placeholder="When will you work on each step?"></textarea>
+    </div>
+
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">8</span>
+            <span class="step-title">Your Accountability Plan</span>
+        </div>
+        <p class="step-description">Who can help keep you on track? A friend you'll exchange drafts with? A study group? A self-imposed deadline? We follow through more often when someone else is involved. Name your person and set a check-in point.</p>
+        <textarea placeholder="Who will you share your work with? When?"></textarea>
+    </div>
+
+    <!-- Actions -->
+    <div class="worksheet-actions">
+        <button class="btn btn-gold" onclick="downloadPDF()">Download as PDF</button>
+        <button class="btn btn-outline" onclick="resetForm()">Clear All</button>
+    </div>
+
+</main>
+
+<!-- Footer -->
+<footer>
+    <img src="../mark-transparent.png" alt="" class="footer-mark">
+    <p>&copy; 2026 Sarah Bonanno</p>
+</footer>
+
+<script src="../js/worksheet.js"></script>
+</body>
+</html>
