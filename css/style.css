@@ -494,6 +494,63 @@ footer p {
     font-weight: 300;
 }
 
+/* ── Breadcrumb Separators ── */
+.nav-links li + li::before {
+    content: "/";
+    color: #ccc;
+    margin-right: 28px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+/* ── Grid Modifiers ── */
+.worksheets-grid--2col {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* ── Coming-Soon Card ── */
+.worksheet-card--soon {
+    opacity: 0.55;
+    pointer-events: none;
+    border-style: dashed;
+}
+
+.worksheet-card--soon .card-arrow {
+    display: none;
+}
+
+.coming-soon-badge {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #999;
+    margin-top: 20px;
+}
+
+/* ── Welcome Section ── */
+.welcome-section {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 56px 48px 0;
+    text-align: center;
+}
+
+.welcome-section h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 12px;
+}
+
+.welcome-section p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #666;
+    line-height: 1.8;
+}
+
 /* ── Responsive ── */
 @media (max-width: 768px) {
     nav {
@@ -522,7 +579,8 @@ footer p {
         font-size: 32px;
     }
 
-    .worksheets-grid {
+    .worksheets-grid,
+    .worksheets-grid--2col {
         grid-template-columns: 1fr;
         padding: 40px 24px 56px;
         max-width: 420px;
