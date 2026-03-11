@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing an Annotated Bibliography Entry — Classroom Resources</title>
+    <link rel="icon" href="../../../../favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../../../css/style.css">
+</head>
+<body>
+
+<!-- Nav -->
+<div class="nav-wrapper">
+    <nav>
+        <a href="../../../../index.html" class="nav-brand">
+            <img src="../../../../mark-transparent.png" alt="">
+            <span>Classroom Resources</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="../../index.html">Research Paper</a></li>
+            <li><a href="../index.html">Unit 2</a></li>
+        </ul>
+    </nav>
+</div>
+
+<!-- Header -->
+<header class="worksheet-header">
+    <p class="section-label" style="color: var(--gold);">Worksheet 03</p>
+    <h1>Writing an Annotated Bibliography Entry</h1>
+    <p>Practice the two-move structure for a strong annotation: summarize your source's argument, then connect it to your research project.</p>
+</header>
+
+<!-- Body -->
+<main class="worksheet-body">
+
+    <!-- Student Info -->
+    <div class="student-info">
+        <div>
+            <label for="student-name">Name</label>
+            <input type="text" id="student-name" placeholder="Your name">
+        </div>
+        <div>
+            <label for="student-date">Date</label>
+            <input type="text" id="student-date" placeholder="Today's date">
+        </div>
+    </div>
+
+    <!-- Step 1 -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">1</span>
+            <span class="step-title">MLA Citation</span>
+        </div>
+        <p class="step-description">Write the full MLA citation for your source. Include author, title, publication information, and date. This will appear at the top of your annotated bibliography entry.</p>
+        <textarea placeholder="Write the full MLA citation for your source..."></textarea>
+    </div>
+
+    <!-- Step 2 -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">2</span>
+            <span class="step-title">Summarize the Source</span>
+        </div>
+        <p class="step-description">In your own words, summarize the source's main argument or purpose. What is the author trying to say? What evidence do they use? Aim for 2–3 sentences.</p>
+        <textarea placeholder="Summarize the source's main argument in your own words..."></textarea>
+    </div>
+
+    <!-- Step 3: Checklist -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">3</span>
+            <span class="step-title">Assess the Source</span>
+        </div>
+        <p class="step-description">Evaluate your source using the criteria below. Check each box once you've considered it, and use the notes field to capture your thinking.</p>
+
+        <div class="checklist-item">
+            <input type="checkbox" id="check-reliable">
+            <div class="checklist-content">
+                <div class="checklist-label">Is this source reliable?</div>
+                <div class="checklist-desc">Consider the author's credentials, the publication venue, and whether the source uses evidence to support its claims.</div>
+                <textarea placeholder="Notes: Why is this source credible (or not)?"></textarea>
+            </div>
+        </div>
+
+        <div class="checklist-item">
+            <input type="checkbox" id="check-compare">
+            <div class="checklist-content">
+                <div class="checklist-label">How does it compare to other sources?</div>
+                <div class="checklist-desc">Does this source agree with, complicate, or contradict other sources you've found? How does it fit into the larger conversation?</div>
+                <textarea placeholder="Notes: How does this source relate to others?"></textarea>
+            </div>
+        </div>
+
+        <div class="checklist-item">
+            <input type="checkbox" id="check-limitations">
+            <div class="checklist-content">
+                <div class="checklist-label">What are its limitations?</div>
+                <div class="checklist-desc">Does the source have gaps, biases, or a narrow scope? What doesn't it address that might be relevant to your project?</div>
+                <textarea placeholder="Notes: What limitations do you notice?"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <!-- Step 4 -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">4</span>
+            <span class="step-title">Reflect — Connect to Your Project</span>
+        </div>
+        <p class="step-description">How does this source connect to your research project? Does it provide evidence for your argument, offer context, or present a counterpoint? Explain why you chose this source and how you plan to use it.</p>
+        <textarea placeholder="How does this source connect to your research project?"></textarea>
+    </div>
+
+    <!-- Step 5 -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">5</span>
+            <span class="step-title">Draft the Full Annotation</span>
+        </div>
+        <p class="step-description">Using your work above, draft the full annotation for this source. Aim for 5–10 sentences that summarize the source, assess its reliability, and reflect on its connection to your project.</p>
+        <textarea class="large" placeholder="Write your full annotated bibliography entry here..."></textarea>
+    </div>
+
+    <!-- Actions -->
+    <div class="worksheet-actions">
+        <button class="btn btn-gold" onclick="downloadPDF()">Download as PDF</button>
+        <button class="btn btn-outline" onclick="resetForm()">Clear All</button>
+    </div>
+
+</main>
+
+<!-- Footer -->
+<footer>
+    <img src="../../../../mark-transparent.png" alt="" class="footer-mark">
+    <p>&copy; 2026 Sarah Bonanno</p>
+</footer>
+
+<script src="../../../../js/worksheet.js"></script>
+</body>
+</html>
