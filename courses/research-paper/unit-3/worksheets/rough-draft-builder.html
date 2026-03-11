@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rough Draft Builder — Classroom Resources</title>
+    <link rel="icon" href="../../../../favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../../../css/style.css">
+</head>
+<body>
+
+<!-- Nav -->
+<div class="nav-wrapper">
+    <nav>
+        <a href="../../../../index.html" class="nav-brand">
+            <img src="../../../../mark-transparent.png" alt="">
+            <span>Classroom Resources</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="../../index.html">Research Paper</a></li>
+            <li><a href="../index.html">Unit 3</a></li>
+        </ul>
+    </nav>
+</div>
+
+<!-- Header -->
+<header class="worksheet-header">
+    <p class="section-label" style="color: var(--gold);">Worksheet 03</p>
+    <h1>Rough Draft Builder</h1>
+    <p>Plan and draft your rough draft argument for <em>Science, Fiction, and Technology</em>. This worksheet walks you through your main claim, three body paragraphs, and the coversheet reflection.</p>
+</header>
+
+<!-- Body -->
+<main class="worksheet-body">
+
+    <!-- Student Info -->
+    <div class="student-info">
+        <div>
+            <label for="student-name">Name</label>
+            <input type="text" id="student-name" placeholder="Your name">
+        </div>
+        <div>
+            <label for="student-date">Date</label>
+            <input type="text" id="student-date" placeholder="Today's date">
+        </div>
+    </div>
+
+    <!-- Step 1 -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">1</span>
+            <span class="step-title">Your Main Claim</span>
+        </div>
+        <p class="step-description">Write the main claim for your research paper. This is your thesis statement — the argument you'll be making loudly and proudly in your introduction. A strong main claim will be specific, contestable, significant, and supportable. If you completed the Evaluating Your Claim worksheet, use your revised claim from there.</p>
+        <textarea placeholder="Write your main claim here..."></textarea>
+    </div>
+
+    <hr class="hairline hairline-center" style="margin: 40px auto;">
+
+    <!-- Step 2 -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">2</span>
+            <span class="step-title">Body Paragraph One</span>
+        </div>
+        <p class="step-description">Plan and draft your first body paragraph. Remember: your subclaim should argue a smaller chunk of your main claim — you don't need to prove everything at once.</p>
+        <textarea placeholder="Subclaim: What is the specific argument this paragraph will make?"></textarea>
+        <textarea placeholder="Evidence: What source material or data will you use? Include quotations or specific references."></textarea>
+        <textarea placeholder="Reasoning: How does your evidence support your subclaim? Why should the reader be convinced?"></textarea>
+        <textarea class="large" placeholder="Draft: Write your full body paragraph here..."></textarea>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">3</span>
+            <span class="step-title">Body Paragraph Two</span>
+        </div>
+        <p class="step-description">Plan and draft your second body paragraph. Think about how this paragraph builds on or develops the argument from your first paragraph.</p>
+        <textarea placeholder="Subclaim: What is the specific argument this paragraph will make?"></textarea>
+        <textarea placeholder="Evidence: What source material or data will you use? Include quotations or specific references."></textarea>
+        <textarea placeholder="Reasoning: How does your evidence support your subclaim? Why should the reader be convinced?"></textarea>
+        <textarea class="large" placeholder="Draft: Write your full body paragraph here..."></textarea>
+    </div>
+
+    <!-- Step 4 -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">4</span>
+            <span class="step-title">Body Paragraph Three</span>
+        </div>
+        <p class="step-description">Plan and draft your third body paragraph. Consider how all three paragraphs work together to support your main claim.</p>
+        <textarea placeholder="Subclaim: What is the specific argument this paragraph will make?"></textarea>
+        <textarea placeholder="Evidence: What source material or data will you use? Include quotations or specific references."></textarea>
+        <textarea placeholder="Reasoning: How does your evidence support your subclaim? Why should the reader be convinced?"></textarea>
+        <textarea class="large" placeholder="Draft: Write your full body paragraph here..."></textarea>
+    </div>
+
+    <hr class="hairline hairline-center" style="margin: 40px auto;">
+
+    <!-- Step 5 -->
+    <div class="worksheet-step">
+        <div class="step-header">
+            <span class="step-number">5</span>
+            <span class="step-title">Coversheet Reflection</span>
+        </div>
+        <p class="step-description">Answer the following questions to include at the top of your rough draft submission. This is a rough draft — it's supposed to be messy, unpolished, and incomplete. The goal is to practice argumentation skills and get started on your research paper.</p>
+        <textarea placeholder="1. What are the strengths of your rough draft?"></textarea>
+        <textarea placeholder="2. What are areas of growth for your rough draft?"></textarea>
+        <textarea placeholder="3. Did anyone help you with your rough draft? (e.g., a friend, family member, tutor)"></textarea>
+        <textarea placeholder="4. What questions do you have for me about your rough draft?"></textarea>
+    </div>
+
+    <!-- Actions -->
+    <div class="worksheet-actions">
+        <button class="btn btn-gold" onclick="downloadPDF()">Download as PDF</button>
+        <button class="btn btn-outline" onclick="resetForm()">Clear All</button>
+    </div>
+
+</main>
+
+<!-- Footer -->
+<footer>
+    <img src="../../../../mark-transparent.png" alt="" class="footer-mark">
+    <p>&copy; 2026 Sarah Bonanno</p>
+</footer>
+
+<script src="../../../../js/worksheet.js"></script>
+</body>
+</html>
